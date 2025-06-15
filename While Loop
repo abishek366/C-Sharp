@@ -1,0 +1,20 @@
+using System;
+using System.Runtime.Remoting.Services;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num;
+            Console.Write("Enter the number:");
+            num = int.Parse(Console.ReadLine());
+            while (num <= 3)
+            {
+                Console.WriteLine("Number : " + num);
+                num++;
+            }
+        }
+    }
+}
