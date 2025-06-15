@@ -1,0 +1,27 @@
+    using System;
+    using System.Runtime.Remoting.Services;
+
+    namespace ConsoleApp1
+    {
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+            int mark;
+            Console.WriteLine("Enter your marks");
+            mark = int.Parse(Console.ReadLine());
+            if (mark >= 90)
+            {
+                Console.WriteLine("A");
+            }
+            else if (mark >= 80)
+            {
+                Console.WriteLine("B");
+            }
+            else
+            {
+                Console.WriteLine("below C");
+            }
+        }
+        }
+    }
