@@ -1,0 +1,17 @@
+Syntax
+  Datatype[] indetifier = new DataType
+  int [] mark = new int[5]; ////  5 - size
+
+mark[0] = 10;
+mark[1] = 20;
+mark[2] = 30;
+mark[3] = 40;
+mark[4] = 50;
+-----------------------------------or------------------------
+
+int [] mark = {10,20,30,40,50};
+
+foreach (int num in mark)
+{
+     Console.WriteLine(num);
+}
