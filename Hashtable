@@ -1,0 +1,19 @@
+using System;
+using System.Collections;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add("DS", "BTree");
+            hashtable.Add("OS", "BTreeSystems");
+            foreach (var item in hashtable.Keys)
+            {
+                Console.WriteLine(hashtable[item]);
+            }
+        }
+    }
+}
