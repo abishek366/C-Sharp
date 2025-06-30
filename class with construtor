@@ -1,0 +1,17 @@
+using System;
+
+namespace ConsoleApp1
+{
+    internal class MyClass
+    {
+        int num;
+        string name;
+
+        // Constructor
+        public MyClass(int num, string name)
+        {
+            this.num = num;     // Assign local value to class variable
+            this.name = name;   // ✅ Corrected line
+        }
+    }
+}
